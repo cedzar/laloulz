@@ -1,0 +1,45 @@
+.uk-container{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.card-marging{
+    margin-top: 30px;
+}
+.map-responsive {
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+.map-responsive iframe {
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+body{
+    background: #C8E0E6;
+}
+.uk-card-default{
+    box-shadow: 0 14px 25px rgb(0 0 0 / 16%);
+}
+.align-img>img{
+    height: 250px;
+}
+
+/* Utilitaires */
+.f-size-xl{
+    font-size: 42px;
+}
+/* Nav Bar */
+.uk-navbar-nav>li.uk-active>a{
+    font-size: 30px;
+}
+
+/* Contenu */
+.spc-beet{
+    display: flex;
+    flex-direction: column;
+    place-content: space-between;
+}
