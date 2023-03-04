@@ -64,6 +64,14 @@ h2{
     color: white;
     transition: 0.5s;
 }
+.mobile-clic a{
+    pointer-events: none;
+    color: #666;
+    cursor: text;
+}
+.mobile-clic:hover{
+    cursor: text;
+}
 
 /* Footer */
 .bg-footer{
@@ -95,5 +103,13 @@ h2{
     }
     .footer-ul>li>a{
         margin-bottom: 10px;
+    }
+    .mobile-clic a {
+        cursor: pointer;
+        pointer-events: all;
+    }
+    .mobile-clic a:hover{
+        text-decoration: none;
+
     }
   }
